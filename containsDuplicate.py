@@ -17,7 +17,6 @@
 
 class Solution:
     def containsDuplicate(self, nums):
-        count =0
         mem = set()
         while nums is not []:
             number = nums.pop()
@@ -25,7 +24,7 @@ class Solution:
                 return True
             else :
                 mem.add(number)
-            count += 1
+            # count += 1
         return False
 
 mySolution = Solution()
