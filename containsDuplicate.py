@@ -15,18 +15,31 @@
 # Input: [1,1,1,3,3,4,3,2,4,2]
 # Output: true
 
-class Solution:
-    def containsDuplicate(self, nums):
-        mem = set()
-        while nums is not []:
-            number = nums.pop()
-            if number in mem:
-                return True
-            else :
-                mem.add(number)
-            # count += 1
-        return False
+# class Solution:
+#     def containsDuplicate(self, nums):
+#         mem = set()
+#         while nums is not []:
+#             number = nums.pop()
+#             if number in mem:
+#                 return True
+#             else :
+#                 mem.add(number)
+#             # count += 1
+#         return False
 
-mySolution = Solution()
+# mySolution = Solution()
 
-print(mySolution.containsDuplicate([1,2,4,3,6,1]))
+# print(mySolution.containsDuplicate([1,2,4,3,6,1]))
+
+x = [1,2,4,5,6`]
+head = 0
+tail = -1
+print(x)
+while (tail * -1) < len(x) -1 //2 -1:
+    if tail is 0:
+        tail -=1
+    
+    print(x[head])
+    print(x[tail])
+    head += 1
+    tail -=1
